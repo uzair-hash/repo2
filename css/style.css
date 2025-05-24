@@ -10,3 +10,19 @@ p{
     font-weight: bold;
     margin-left: 100px;
 }
+.flex{
+    display: flex;
+}
+.gap{
+    gap: 20px;
+}
+nav.flex a{
+    color: black;
+    text-decoration: none;
+}
+nav.flex a:hover{
+    color: brown;
+}
+.m-left{
+    margin-left: 100px;
+}
