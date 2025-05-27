@@ -18,11 +18,14 @@
     width: 100%;
     text-align: center;
   }
-
+  .logo{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
   .nav-items ul {
     flex-direction: column;
     gap: 15px;
-    padding: 20px 0;
+    padding: 20px 40px;
   }
 
   .nav-items.active {
@@ -31,3 +34,37 @@
 }
 
 /* Responsive Design of top box end */
+
+/* hero section responsive code start */
+
+@media( max-width: 768px){
+    .hero-img{
+        height: auto;
+        max-width: 400px;
+    }
+    .hero-img img {
+        object-fit: contain;
+        height: auto;
+        width: 100%;
+    }
+    .hero-section .flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media( max-width: 768px){
+    .top-banner{
+        height: 200vh;
+    }
+    .container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+ .input-hero-section{
+    width: 390px;
+ }
+}
+
+/* hero section responsive code end */
