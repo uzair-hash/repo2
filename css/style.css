@@ -158,3 +158,35 @@ color: white; text-decoration: none; font-size: 15px;  font-weight: 500; text-tr
 }
 
 /* style of hero section end */
+
+.box {
+	background-color: #fff;
+  border: none;
+	border-radius: 25px;
+	width: 100%;
+	transition: .500s all;
+	height: 200px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  margin-top: -100px;
+  padding: 35px;
+}
+.boxesstyle {
+	position: relative;
+	z-index: 2;
+}
+.icon-circle {
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	text-align: center;
+	line-height: 90px;
+	background-color: #0071f8;
+	border-radius: 50%;
+	transition: all .3s;
+}
+.icon-circle:hover{
+  background-color: #ee626b;
+}
+.box h1{
+  font-size: 17px; display: block; padding-top: 25px; 
+}
