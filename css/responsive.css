@@ -1,0 +1,33 @@
+/* Responsive Design of top box  start */
+
+@media (max-width: 768px) {
+  .nav-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+   .burger {
+    display: flex;
+  }
+
+  .nav-items {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #007bff;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-items ul {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .nav-items.active {
+    display: block;
+  }
+}
+
+/* Responsive Design of top box end */

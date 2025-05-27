@@ -1,18 +1,28 @@
-<header>
-    <div class="top-banner">
-        <div class="top-box">
-          <div class="container">
-           <div class="logo"></div>
-           <nav class="nav-items">
-         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li><button style="background-color: #ee626b;  border-radius: 20px; font-size: 30px;"><a href="#" style="color: white; text-decoration: none;">sign-in</a></button></li>
-        </ul>
-          </nav>
-          </div>
-          
+ <div class="top-banner"></div> <!--top background banner include header and super hero photo -->
+ <header>
+  <div class="top-box">
+    <div class="container">
+      <div class="flex" style="justify-content: space-between; align-items: center;">
+        <div class="logo"></div>
+
+        <!-- Burger Menu (Mobile Only) -->
+        <div class="burger" onclick="toggleMenu()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
+
+        <!-- Navigation Items -->
+        <nav class="nav-items" id="navItems">
+          <ul>
+            <li>Home</li>
+            <li>Our shop</li>
+            <li>Product details</li>
+            <li>Contact Us</li>
+            <li><button class="sign-in-btn"><a href="#">sign in</a></button></li>
+          </ul>
+        </nav>
+      </div>
     </div>
+  </div>
 </header>
