@@ -83,3 +83,58 @@
     margin-left: 100px;
   }
 }
+
+/* responsive code of game image boxes */
+
+@media screen and (max-width: 1024px) {
+  .box-game {
+    width: calc((100% - 3 * 20px) / 4); /* 4 boxes per row on tablets */
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box-game {
+    width: calc((100% - 2 * 15px) / 3); /* 3 boxes per row on small tablets */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .game-flex {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .box-game {
+    width: 100% !important;  /* Full width on mobiles */
+    height: auto;
+    padding: 15px;
+  }
+  .box-img img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain; /* better image scaling on mobiles */
+  }
+  .box-content-2{
+    padding-bottom: 10px;
+    padding-right: 70px;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .pubg-img {
+  margin-top: 150px;
+  text-align: center;
+  padding: 0 15px; /* Thoda padding for small screens */
+}
+
+.pubg-img img {
+  width: 100%;           /* Full width of container */
+  max-width: 500px;      /* Limit on large screens */
+  border-radius: 25px;   /* Round edges */
+  display: inline-block;
+  height: auto;          /* Maintain aspect ratio */
+}
+
+}
